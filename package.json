@@ -1,6 +1,6 @@
 {
   "name": "cra-to-gh-pages",
-  "homepage": "/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
