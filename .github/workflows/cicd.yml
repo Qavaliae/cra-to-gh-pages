@@ -19,10 +19,6 @@ jobs:
           node-version: 20.x
           cache: npm
 
-      - name: Configure base path
-        run: |
-          sed -i 's/"homepage": "."/"homepage": "\/cra-to-gh-pages"/g' package.json
-
       - name: Installing NPM packages
         run: npm ci
 
